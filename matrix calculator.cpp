@@ -25,7 +25,7 @@ int main() {
 		cout << "[ 0 0 ]" << endl;
 		cout << " " << endl;
 		this_thread::sleep_for(chrono::seconds(1));
-		cout << "\33[36mNow input integers you want to be in this matrix." << endl;
+		cout << "\33[36mNow input values you want to be in this matrix." << endl;
 		int No = 0;
 		for (int i = 0; i < 2; i++) {
 			for (int j = 0; j < 2; j++) {
@@ -51,7 +51,7 @@ int main() {
 		cout << "[ 0 0 0 ]" << endl;
 		cout << "[ 0 0 0 ]" << endl;
 		cout << " " << endl;
-		cout << "\33[36mNow input integers you want to be in this matrix." << endl;
+		cout << "\33[36mNow input values you want to be in this matrix." << endl;
 		int No = 0;
 		for (int i = 0; i < 3; i++) {
 			for (int j = 0; j < 3; j++) {
@@ -591,4 +591,5 @@ int main() {
 		cout << "\33[31mHey, buddy, something went wrong. Maybe, you didn't type \33[32m'Yes' or \33[31m'No'." << endl;
 		cout << "Anyway, restart the program, if you wanna." << endl;
 	}
+
 }
