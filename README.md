@@ -12,7 +12,7 @@ As you can see, my project works with square matrices of sizes 2x2 and 3x3 only:
 ![1](step1.png)\
 You can choose size just by typing `2x2` or `3x3`.
 After choosing the size, you must input numbers that your matrix will have.
-Array that contains them is of `float` data type, so you can even write numbers with decimal point(aka **floating-point numbers**):\
+Array that contains them is of `float` data type, so you can even write numbers with decimal point(aka **floating-point numbers** or simply **FP numbers**):\
 ![2](step2.png)
 
 ### Actions with matrices
